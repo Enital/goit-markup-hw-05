@@ -70,9 +70,9 @@ body {
 .nav-link:hover {
   color: var(--prime-color);
 }
-.nav-link:visited {
-  color: var(--text-color);
-}
+/* .nav-link:visited {
+  color: var(--prime-color);
+} */
 .nav-link:active {
   color: var(--prime-color);
 }

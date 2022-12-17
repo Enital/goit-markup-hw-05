@@ -238,11 +238,18 @@ body {
   border-radius: 50%;
   border: none;
   background-color: var(--accent-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   margin-top: 24px;
   margin-left: 360px;
   padding: 0;
   cursor: pointer;
   margin-bottom: 24px;
+}
+.modal-close:hover,
+.modal-close:active {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border: none;
 }
 .modal-title {
   font-weight: 600;
@@ -308,8 +315,8 @@ body {
   align-items: center;
   margin-bottom: 8px;
 }
-.feature-icon-some {
-}
+/* .feature-icon-some {
+} */
 .examples-list {
   display: flex;
   justify-content: space-between;
